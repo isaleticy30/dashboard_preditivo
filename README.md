@@ -1,38 +1,31 @@
-Esse projeto é um dashboard preditivo de ordens de serviço com foco na análise de dados geográficos de Goiás e machine learning pra previsão de tempo e efetividade.
+# Dashboard Preditivo de Ordens de Serviço - Goiás
 
-O que tem no projeto
-Dados de Ordens de Serviço (OS): Tabelas com detalhes como tipo de serviço (comercial ou emergencial), cidades, prefixos, datas e durações.
+## Objetivo
+- Fornecer um painel inteligente para gestores otimizarem recursos, preverem atrasos e melhorarem a eficiência das ordens de serviço com base em dados reais e machine learning.
 
-GeoJSON dos municípios de Goiás: Polígonos geográficos pra plotar mapas e analisar regionalmente.
+## Sobre
+Projeto de análise de dados e machine learning focado em ordens de serviço (OS) da área de manutenção em municípios de Goiás. A ideia é usar dados geográficos, históricos de execução e tipos de serviço pra prever:
+- Se a OS será efetiva ou não
+- O tempo ideal para execução da OS
+- Identificar padrões regionais com clusterização
+- Visualizar mapas e gráficos para facilitar a tomada de decisão
 
-Análise exploratória e pré-processamento: Limpeza, normalização, balanceamento (undersampling) e remoção de outliers.
+## O que tem no projeto
+- Dados das OS com informações como tipo, cidade, prefixo, datas e durações
+- GeoJSON com os polígonos dos municípios de Goiás pra mapas interativos
+- Pré-processamento: limpeza, balanceamento, normalização e tratamento de outliers
+- Modelos ML treinados direto no script: XGBoost (classificação e regressão) e KMeans (clusterização)
+- Visualizações com mapas, rankings e KPIs filtrados por cidade, prefixo, mês e dia
+- Pipeline de machine learning integrado no dashboard Python, sem dependência externa
+- Integração com Firebase Authentication para login (parte do sistema de autenticação)
 
-Modelos de ML:
+## Tecnologias usadas
+- Python (pandas, scikit-learn, XGBoost, matplotlib, seaborn, folium/plotly)
+- Firebase Authentication para gerenciamento de usuários
 
-Classificação: Previsão se uma OS será efetiva ou não.
-
-Regressão Linear: Previsão do tempo ideal de execução da OS.
-
-Clusterização (KMeans): Identificação de grupos de municípios com padrões similares.
-
-Visualizações interativas:
-
-Mapas choropleth com os polígonos dos municípios.
-
-Gráficos para identificar cidades com maior taxa de não efetividade.
-
-Rankings de equipes e cidades que mais atrasam.
-
-KPIs de tempo de resposta, duração e efetividade, filtrados por cidade, prefixo, mês e dia.
-
-Pipeline ML integrado no dashboard: Treina e testa os modelos direto no script Python, sem depender de arquivos externos.
-
-Ferramentas usadas:
-
-Python com pandas, scikit-learn, XGBoost, matplotlib, seaborn, folium (ou plotly para mapas).
-
-Power BI (algumas análises e relatórios).
-
-Firebase Authentication para login (parte do sistema que você mencionou em outras conversas).
-
-Objetivo final: Ajudar gestores a entender onde e quando as OS são menos efetivas, prever o tempo ideal para otimizar recursos e identificar padrões regionais.
+## Estrutura
+- dataframe_OPER.csv — dados principais das ordens de serviço
+- geojson_goias.json — mapa dos municípios de Goiás
+- ML_dashboard_preditivo.py — dashboard com análise, visualização e ML
+- ML_TreinoTeste.py — script para treinar modelos e salvar arquivos .pkl
+- Pastas auxiliares para dados, gráficos e configs do Firebase
