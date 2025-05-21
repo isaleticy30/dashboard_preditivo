@@ -31,3 +31,4 @@ Projeto de análise de dados e machine learning focado em ordens de serviço (OS
 - Pastas auxiliares para dados, gráficos e configs do Firebase
 
 Obs.: Gráfico ainda em desenvolvimento, por motivos de segurança a visualização do dashboard é restrita.
+Obs.: Criei um arquivo .env para armazenar as variaveis de conexão com as planilhas, como: URLs, Email e Senha. Por motivos de segurança a visualização do arquivo é restrita.
