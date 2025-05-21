@@ -29,3 +29,5 @@ Projeto de análise de dados e machine learning focado em ordens de serviço (OS
 - ML_dashboard_preditivo.py — dashboard com análise, visualização e ML
 - ML_TreinoTeste.py — script para treinar modelos e salvar arquivos .pkl
 - Pastas auxiliares para dados, gráficos e configs do Firebase
+
+Obs.: Gráfico ainda em desenvolvimento, por motivos de segurança a visualização do dashboard é restrita.
