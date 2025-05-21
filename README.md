@@ -32,4 +32,4 @@ Projeto de análise de dados e machine learning focado em ordens de serviço (OS
 
 ## Obs.
 - Gráfico ainda em desenvolvimento, por motivos de segurança a visualização do dashboard é restrita.
-- Criei um arquivo .env para armazenar as variaveis de conexão com as planilhas, como: URLs, Email e Senha. Por motivos de segurança a visualização do arquivo é restrita.
+- Criei um arquivo .env para armazenar as variaveis de conexão com as planilhas, como: URLs, Email e Senha. Por motivos de segurança a visualização do arquivo também é restrita.
