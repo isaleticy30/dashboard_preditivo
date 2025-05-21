@@ -30,5 +30,5 @@ Projeto de análise de dados e machine learning focado em ordens de serviço (OS
 - ML_TreinoTeste.py — script para treinar modelos e salvar arquivos .pkl
 - Pastas auxiliares para dados, gráficos e configs do Firebase
 
-Obs.: - Gráfico ainda em desenvolvimento, por motivos de segurança a visualização do dashboard é restrita.
-Obs.: - Criei um arquivo .env para armazenar as variaveis de conexão com as planilhas, como: URLs, Email e Senha. Por motivos de segurança a visualização do arquivo é restrita.
+- Obs.: Gráfico ainda em desenvolvimento, por motivos de segurança a visualização do dashboard é restrita.
+- Obs.: Criei um arquivo .env para armazenar as variaveis de conexão com as planilhas, como: URLs, Email e Senha. Por motivos de segurança a visualização do arquivo é restrita.
